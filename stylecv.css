@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+article {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+aside {
+  flex-shrink: 0;
+  width: 200px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilos adicionales según tus preferencias */
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+h2 {
+  color: #333;
+  font-size: 20px;
+}
+
+h3 {
+  color: #666;
+  font-size: 16px;
+}
+
+ul li {
+  color: #333;
+}
+
+/* Estilos personalizados para cada sección */
+
+article {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside ul li {
+  color: #555;
+}
